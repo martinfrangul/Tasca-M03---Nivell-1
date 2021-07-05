@@ -1,0 +1,184 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container-gral {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+/*CAIXA 1*/
+
+.caixa1 {
+    width: 100%;
+    height: 13%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px 15px 4px 15px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+/*ELEMENTS CAIXA1*/
+
+.box1 {
+    width: 20%;
+    height: 25%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: left;
+
+}
+
+.box2 {
+    width: 50%;
+    height: 25%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: center;
+
+}
+
+.box3 {
+    width: 20%;
+    height: 25%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: right;
+
+}
+
+/*CAIXA 2*/
+
+.caixa2 {
+    width: 100%;
+    height: 13%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px 15px 15px 15px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*ELEMENTS CAIXA2*/
+
+.box1-2 {
+    width: 95.5%;
+    height: 25%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: center;
+}
+
+/*CAIXA 3 i 4
+Té un contenidor*/
+
+.cont3i4 {
+    width: 100%;
+    height: 26%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+/*CAIXA 3*/
+
+.caixa3 {
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+/*ELEMENTS CAIXA 3*/
+
+.caixa3 .art1 {
+    width: 45%;
+    height: 10%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: left;
+}
+
+.caixa3 .art2 {
+    width: 45%;
+    height: 10%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: right;
+}
+
+.caixa3 .art3 {
+    width: 45%;
+    height: 10%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: left;
+}
+
+.caixa3 .art4 {
+    width: 45%;
+    height: 10%;
+    border-style: solid;
+    border-width: 5px;
+    justify-items: right;
+}
+
+.caixa3 .art5 {
+    width: 94%;
+    height: 10%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+/*CAIXA 4*/
+
+.caixa4 {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px 15px 15px 0px;
+    display: flex;
+}
+
+/*ELEMENTS CAIXA 4*/
+
+
+/*CAIXA 5*/
+
+.caixa5 {
+    width: 100%;
+    height: 7%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+}
+
+/*ELEMENTS CAIXA5*/
