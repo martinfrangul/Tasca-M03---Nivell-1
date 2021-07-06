@@ -22,27 +22,29 @@ body {
 /*CAIXA 1 i 2*/
 
 
-.container-gral .caixa1, .caixa2 {
+.container-gral .caixa1, 
+.container-gral .caixa2 {
     width: 100%;
     height: 11%;
     box-sizing: border-box;
     border-style: solid;
     border-color: black;
+    border-width: 15px;
     display: flex;
     align-items: center;
 }
 
-.caixa1 {
-    border-width: 15px 15px 4px 15px;
+.container-gral .caixa1 {
+    border-bottom-width: 4px;
     background-color: #2d4158;
     justify-content:space-evenly;
 }
 
-.caixa2 {
-    border-width: 4px 15px 15px 15px;
+.container-gral .caixa2 {
+    border-top-width: 4px;
     background-color: #f07a3e;
     margin-bottom: 2%;
-    justify-content:center;
+    justify-content: center;
 }
 
 /*ELEMENTS CAIXA1*/
@@ -107,7 +109,7 @@ A diferència de les altres caixes aquestas 2 tenen un contenidor*/
 .caixa3 {
     width: 70%;
     background-color: #4f4e6b;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content:space-evenly;
     align-content: space-evenly;
 }
@@ -152,7 +154,7 @@ A diferència de les altres caixes aquestas 2 tenen un contenidor*/
     background-color: #feeb84;    
 }
 
-.artLat1 {
+.caixa4 .artLat1 {
     margin: 7% 0% 3% 0%;
 }
 
